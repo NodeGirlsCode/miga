@@ -6,9 +6,9 @@ Em 2016, tramitaram na Justiça do País mais de um milhão de processos referen
 
 Das 176 respostas colhidas do nosso formulário divulgado (GoogleForms), 23,3% das mulheres declararam já ter sofrido algum tipo de violência doméstica. Dessas:
 
-65,9% declararam ter sofrido violência física
-90,2% declararam ter sofrido violência psicológica
-19,5% declararam ter sofrido violência financeira
+* 65,9% declararam ter sofrido violência física
+* 90,2% declararam ter sofrido violência psicológica
+* 19,5% declararam ter sofrido violência financeira
 
 Uma das dificuldades das mulheres, durante o processo de violência doméstica, na condição de vítimas, é a FALTA DE APOIO.
 
