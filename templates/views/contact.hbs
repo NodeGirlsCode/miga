@@ -10,32 +10,32 @@
 			<form method="post">
 				<input type="hidden" name="action" value="contact">
 				<div class="form-group {{#if validationErrors.name}}has-error{{/if}}">
-					<label>Name</label>
+					<label>Nome</label>
 					<input type="text" name="name.full"  class="form-control" value="{{formData.[name.full]}}">
 				</div>
 				<div class="form-group {{#if validationErrors.email}}has-error{{/if}}">
-					<label>Email</label>
+					<label>E-mail</label>
 					<input type="email" name="email" class="form-control" value="{{formData.email}}">
 				</div>
 				<div class="form-group">
-					<label>Phone</label>
-					<input type="text" name="phone" placeholder="(optional)" class="form-control" value="{{formData.phone}}">
+					<label>Fone</label>
+					<input type="text" name="phone" placeholder="(opcional)" class="form-control" value="{{formData.phone}}">
 				</div>
 				<div class="form-group {{#if validationErrors.enquiryType}}has-error{{/if}}">
-					<label>What are you contacting us about?</label>
+					<label>Sobre o que você gostaria de falar?</label>
 					<select name="enquiryType" class="form-control">
-						<option value="">(select one)</option>
+						<option value="">(Escolha um)</option>
 						{{#each enquiryTypes}}
 						<option value="{{value}}">{{label}}</option>
 						{{/each}}
 					</select>
 				</div>
 				<div class="form-group {{#if validationErrors.message}}has-error{{/if}} ">
-					<label>Message</label>
-					<textarea name="message" placeholder="Leave us a message..." rows="4" class="form-control">{{formData.message}}</textarea>
+					<label>Mensagem</label>
+					<textarea name="message" placeholder="Nos deixe uma mensagem..." rows="4" class="form-control">{{formData.message}}</textarea>
 				</div>
 				<div class="form-actions">
-					<button type="submit" class="btn btn-primary">Send</button>
+					<button type="submit" class="btn btn-primary">Enviar</button>
 				</div>
 			</form>
 			{{/if}}
