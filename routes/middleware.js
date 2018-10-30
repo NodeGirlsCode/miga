@@ -20,8 +20,11 @@ var _ = require('lodash');
 exports.initLocals = function (req, res, next) {
 	res.locals.navLinks = [
 		{ label: 'Home', key: 'home', href: '/' },
-		{ label: 'Blog', key: 'blog', href: '/blog' },
-		{ label: 'Contact', key: 'contact', href: '/contact' },
+		{ label: 'Sobre Nós', key: 'blog', href: '/blog/post/sobre-nos' },
+		{ label: 'Casas Seguras', key: 'blog', href: '/blog/post/casas-seguras' },
+		{ label: 'Escuta', key: 'blog', href: '/blog/post/escuta' },
+		//{ label: 'Cadastro', key: 'blog', href: '/blog/post/cadastro' },
+		{ label: 'Contato', key: 'blog', href: '/contact' },
 	];
 	res.locals.user = req.user;
 	next();
