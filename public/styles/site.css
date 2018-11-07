@@ -4077,7 +4077,7 @@ tbody.collapse.in {
   .breadcrumb > li {
     display: inline-block; }
     .breadcrumb > li + li:before {
-      content: "/ ";
+      content: "/ ";
       padding: 0 5px;
       color: #ccc; }
   .breadcrumb > .active {
@@ -4327,7 +4327,6 @@ a.badge:hover, a.badge:focus {
       .jumbotron h1,
       .jumbotron .h1 {
         font-size: 63px; } }
-/*er */
 
 .thumbnail {
   display: block;
