@@ -9,7 +9,7 @@
     "express-handlebars": "3.0.0",
     "handlebars": "4.0.6",
     "keystone": "4.0.0-beta.5",
-    "lodash": "^4.13.1",
+    "lodash": "^4.17.19",
     "moment": "2.17.1",
     "node-sass-middleware": "^0.11.0",
     "nodemon": "^1.18.6"
